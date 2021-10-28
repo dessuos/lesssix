@@ -45,3 +45,13 @@ header nav ul li a:active {
     background: firebrick;
     border:2px solid green;
 }
+
+.product-card_info_title{
+display: flex;
+}
+.product-card {
+    display: flex;
+}
+.product-card_info{
+    width: 100%;
+}
