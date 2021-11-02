@@ -2,9 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
+ul{list-style: none;
+}
+
+a{text-decoration: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(93, 198, 247, 0.363);
+    margin: 20px;
+        }
+        main{
+            margin: 20px;
+        }
 header{
     margin-bottom: 40px;
     margin-top: 40px;
@@ -24,7 +38,7 @@ header nav ul li a{
     font-weight: bold; /*жирный текст*/
     line-height: 25px; /*Междустрочный интервал*/
     font-weight: bold;
-    
+    background: rgba(159, 71, 241, 0.425);
     border: 2px solid #000;
     padding: 5px 10px;
     border-radius: 100px;
@@ -42,16 +56,101 @@ header nav ul li {
     margin-right: 15px;
 }
 header nav ul li a:active {
-    background: firebrick;
-    border:2px solid green;
+    background: rgba(82, 4, 155, 0.658);
+    border:2px solid rgb(248, 248, 248);
 }
 
 .product-card_info_title{
 display: flex;
+justify-content:space-between;
 }
 .product-card {
+    margin-top: 50px;
     display: flex;
+    width: 900px;
 }
 .product-card_info{
     width: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
 }
+.product-card_image{
+    width: 150px;
+    min-width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.product-card_image img{
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.product-card_info-btn{
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+
+}
+
+.product-card_info_title {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold; /*жирный текст*/
+    line-height: 25px; /*Междустрочный интервал*/
+    font-weight: bold;
+}
+
+.product-card_info-btnKH p{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px; /*Междустрочный интервал*/
+    
+
+}
+.product-card_info-btn a{
+    padding: 7px;
+    background: rgb(130, 209, 214);
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px; /*Междустрочный интервал*/
+    font-weight: bold;
+
+}
+.product-card_info-btn a:hover {
+    background: linear-gradient(45deg, rgb(144, 143, 228) 0%, rgb(166, 177, 224) 100%);
+    color:blanchedalmond;
+    transition: all .7s;}
+
+.product-card_info-btn a:active {
+    background: rgba(3, 97, 121, 0.993);
+    border:2px solid rgb(255, 255, 255);}
+    
+    .container{
+        width: 1000px;
+        margin: 0px auto;
+    }
+.catalog{
+    background: rgb(248, 248, 248);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    transition: all 0.5s;
+}
+.catalog:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    transition: all 0.3s;
+}
+
+
+

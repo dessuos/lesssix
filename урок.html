@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Интернет магазин</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+    <header class="container">
         <nav>
             <ul>
                 <li>
@@ -23,28 +28,56 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="about" style="height: 100vh;">
-            <h2>О магазине</h2>
+    <main >
+        <section id="catalog" class="container catalog">
+            <h2>Каталог</h2>
             <div class="product-card">
                 <div class="product-card_image"><img
                         src="https://content2.onliner.by/catalog/device/header/02b46d2a97dbc19011f957807a23963d.jpeg"
-                        alt="" /></div>
+                        alt="" />
+                </div>
                 <div class="product-card_info">
                     <div class="product-card_info_title">
                         <p>Ноутбук HONOR MagicBook X15 BBR-WAI9 53011UGC-001</p>
                         <p>1629,00 р</p>
                     </div>
+                    <div class="product-card_info-btnKH">
+                        <p>Краткая информация</p>
+                    </div>
+                    <div class="product-card_info-btn">
+                        <a href="">Купить в один клик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card_image"><img
+                        src="https://content2.onliner.by/catalog/device/header/02b46d2a97dbc19011f957807a23963d.jpeg"
+                        alt="" />
+                </div>
+                <div class="product-card_info">
+                    <div class="product-card_info_title">
+                        <p>Ноутбук HONOR MagicBook X15 BBR-WAI9 53011UGC-001</p>
+                        <p>1629,00 р</p>
+                    </div>
+                    <div class="product-card_info-btnKH">
+                        <p>Краткая информация</p>
+                    </div>
+                    <div class="product-card_info-btn">
+                        <a href="">Купить в один клик</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="catalog" style="height: 100vh;">
-            <h2>Каталог</h2>
+        <section id="about" class="container" >
+            <h2>О магазине</h2>
+           
+           
         </section>
-        <section id="delivery" style="height: 100vh;">
+        <section id="delivery" class="container">
             <h2>Доставка</h2>
 
         </section>
     </main>
 </body>
+
 </html>
